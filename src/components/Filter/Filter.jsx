@@ -13,7 +13,6 @@ export const Filter = () => {
         onChange={evt => dispatch(filterContact(evt.currentTarget.value))}
         type="text"
         name="filter"
-        placeholder="Find contacts by name"
       />
     </>
   );
